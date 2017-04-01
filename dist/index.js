@@ -8,7 +8,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var port = process.env.PORT || 3000;
 
-_app2.default.listen(3000, function () {
-  console.log('Running on port ' + port + '...');
-});
+_app2.default.listen(port);
+console.log('Running on port ' + port);
 //# sourceMappingURL=index.js.map
