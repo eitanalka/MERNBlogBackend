@@ -14,6 +14,6 @@ const app = express();
 // Middleware
 app.use(bodyParser.json());
 
-app.use('/', routes);
+app.use('/app', routes);
 
 export default app;
