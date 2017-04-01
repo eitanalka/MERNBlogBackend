@@ -22,6 +22,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var routes = (0, _express2.default)();
 
+routes.get('/', _postController2.default.getAll);
+
 routes.get('/setupPosts', _setupController2.default.get);
 
 routes.get('/posts', _postController2.default.getAll);

@@ -13,4 +13,5 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = {
   Post: _Post2.default
 };
+//
 //# sourceMappingURL=index.js.map

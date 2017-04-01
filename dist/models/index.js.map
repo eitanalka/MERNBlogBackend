@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../server/models/index.js"],"names":["Post"],"mappings":";;;;;;AAAA;;;;;;kBAEe;AACbA;AADa,C","file":"index.js","sourcesContent":["import Post from './Post';\n\nexport default {\n  Post\n};\n"]}
+{"version":3,"sources":["../../server/models/index.js"],"names":["Post"],"mappings":";;;;;;AAAA;;;;;;kBAEe;AACbA;AADa,C;AAGf","file":"index.js","sourcesContent":["import Post from './Post';\n\nexport default {\n  Post\n};\n//\n"]}

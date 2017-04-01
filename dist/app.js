@@ -35,7 +35,7 @@ var app = (0, _express2.default)();
 // Middleware
 app.use(_bodyParser2.default.json());
 
-app.use('/api', _routes2.default);
+app.use('/', _routes2.default);
 
 exports.default = app;
 //# sourceMappingURL=app.js.map
