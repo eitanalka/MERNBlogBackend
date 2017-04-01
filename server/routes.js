@@ -7,6 +7,10 @@ import setupController from './controllers/setupController';
 
 const routes = express();
 
+routes.get('/', (req, res) => {
+  console.log('hi');
+});
+
 routes.get('/setupPosts', setupController.get);
 
 routes.get('/posts', postController.getAll);
